@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qatar Visa Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007A33;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        nav {
+            background: #007A33;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            background: #ffffff;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007A33;
+            color: #ffffff;
+        }
+        button {
+            background-color: #007A33;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #005f26;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Qatar Visa Services</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Qatar Visa Services! We specialize in providing hassle-free visa solutions for individuals and businesses looking to travel to Qatar. Our experienced team is dedicated to assisting you with all your visa needs.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Tourist Visa Application</li>
+        <li>Business Visa Application</li>
+        <li>Family Visa Services</li>
+        <li>Visa Renewal and Extension</li>
+        <li>Consultation Services</li>
+    </ul>
+    <p>We ensure a smooth application process and provide guidance at every step. Contact us for more details on our services and pricing.</p>
+    <button onclick="getQuote()">Get a Quote</button>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, please reach out to us:</p>
+    <p>Email: <a href="mailto:irelandspecscomp@gmail.com">irelandspecscomp@gmail.com</a></p>
+    <p>Phone: +974 1234 5678</p>
+    <p>Address: 123 Visa Street, Doha, Qatar</p>
+    <p>
+        <a href="https://wa.me/254708140421?text=Hello%2C%20I%20am%20interested%20in%20your%20Qatar%20visa%20services." target="_blank">
+            <button>Chat with us on WhatsApp</button>
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Qatar Visa Services. All rights reserved.</p>
+</footer>
+
+<script>
+    function getQuote() {
+        alert("Thank you for your interest!\nPlease contact us for a personalized quote.");
+    }
+</script>
+
+</body>
+</html>
